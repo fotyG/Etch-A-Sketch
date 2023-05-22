@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+    color: rgb(230, 226, 226);
+    text-align: center;
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(180deg, rgba(105, 105, 110, 1) 0%, rgba(187, 187, 187, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(180deg, rgba(105, 105, 110, 1) 0%, rgba(187, 187, 187, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(180deg, rgba(105, 105, 110, 1) 0%, rgba(187, 187, 187, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BBBBBB', endColorstr='#69696E', GradientType=1 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(180deg, rgba(105, 105, 110, 1) 0%, rgba(187, 187, 187, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(180deg, rgba(105, 105, 110, 1) 0%, rgba(187, 187, 187, 1) 100%);
+}
+
+#container {
+  display: flex;
+  height: 50rem;
+  width: 100%;
+  gap: 5rem;
+}
+
+.menu {
+  border: solid black 1px;
+  width: 30%;
+}
+
+.sketch-container {
+  height: 400px;
+  width: 400px;
+  border: solid white 1px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.cell {
+  /* border: solid 1px red; */
+  width: 25%;
+  height: 25%;
+  /* background-color: red; */
+}
+
+.colored {
+  background-color: red;
+}
+
+
+            
